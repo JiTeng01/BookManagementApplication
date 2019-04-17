@@ -37,7 +37,6 @@ export default class MainActivity extends Component {
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({
-            // Pass id to php
             UserId: this.props.navigation.state.params.UserId
           })
         })
@@ -65,7 +64,6 @@ export default class MainActivity extends Component {
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({
-            // Pass id to php
             UserId: this.props.navigation.state.params.UserId
           })
         })
@@ -92,7 +90,6 @@ export default class MainActivity extends Component {
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({
-            // Pass id to php
             UserId: this.props.navigation.state.params.UserId
           })
         })
@@ -119,7 +116,6 @@ export default class MainActivity extends Component {
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({
-            // Pass id to php
             UserId: this.props.navigation.state.params.UserId
           })
         })
@@ -146,7 +142,6 @@ export default class MainActivity extends Component {
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({
-            // Pass id to php
             UserId: this.props.navigation.state.params.UserId
           })
         })
@@ -173,7 +168,6 @@ export default class MainActivity extends Component {
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({
-            // Pass id to php
             UserId: this.props.navigation.state.params.UserId
           })
         })
@@ -200,7 +194,6 @@ export default class MainActivity extends Component {
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({
-            // Pass id to php
             UserId: this.props.navigation.state.params.UserId
           })
         })
@@ -227,7 +220,6 @@ export default class MainActivity extends Component {
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({
-            // Pass id to php
             UserId: this.props.navigation.state.params.UserId
           })
         })
