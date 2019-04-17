@@ -26,9 +26,6 @@ export default class BarcodeApp extends Component {
                 <BarcodeScanner
                     style={{ flex: 1 }}
                     onBarcodeRead={({ data, type }) => {
-                        // handle your scanned barcodes here!
-                        // as an example, we show an alert:
-                        //Alert.alert(data);
                         this.props.navigation.navigate('Search_Isbn',{UserId:this.props.navigation.state.params.UserId, isbn:data});
                     }}
                     onException={exceptionKey => {
